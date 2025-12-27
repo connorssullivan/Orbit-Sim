@@ -1,0 +1,19 @@
+#version 330 core
+
+in vec2 TexCord;
+out vec4 fragColor;
+
+uniform sampler2D uBackground;
+uniform vec2 uOffset;
+uniform float uZoom;
+
+void main()
+{
+    vec2 uv = TexCord;
+
+    uv = (uv - 0.5) / uZoom + 0.5;
+    uv += uOffset;
+
+    fragColor = texture(uBackground, uv);
+}
+

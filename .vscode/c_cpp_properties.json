@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "name": "macOS",
+      "compilerPath": "/usr/bin/clang++",
+      "intelliSenseMode": "macos-clang-arm64",
+      "cppStandard": "c++20",
+      "cStandard": "c17",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/local/include",
+        "/opt/homebrew/include"
+      ],
+      "defines": ["__APPLE__"],
+      "macFrameworkPath": [
+        "/System/Library/Frameworks"
+      ]
+    }
+  ],
+  "version": 4
+}
+

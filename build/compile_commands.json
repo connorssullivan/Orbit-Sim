@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build",
+  "command": "/usr/bin/c++  -I/Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/vertex -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glm -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/shaders -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/textures -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++20 -arch arm64 -o CMakeFiles/main.dir/src/main.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/main.cpp",
+  "file": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build",
+  "command": "/usr/bin/cc  -I/Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/vertex -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glm -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/shaders -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/textures -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks  -arch arm64 -o CMakeFiles/main.dir/src/glad.c.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/glad.c",
+  "file": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/glad.c",
+  "output": "CMakeFiles/main.dir/src/glad.c.o"
+},
+{
+  "directory": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build",
+  "command": "/usr/bin/c++  -I/Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/vertex -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glm -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/shaders -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/textures -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++20 -arch arm64 -o CMakeFiles/main.dir/src/callbacks.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/callbacks.cpp",
+  "file": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/callbacks.cpp",
+  "output": "CMakeFiles/main.dir/src/callbacks.cpp.o"
+},
+{
+  "directory": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build",
+  "command": "/usr/bin/c++  -I/Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/vertex -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glm -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/shaders -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/textures -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++20 -arch arm64 -o CMakeFiles/main.dir/src/window.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/window.cpp",
+  "file": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/window.cpp",
+  "output": "CMakeFiles/main.dir/src/window.cpp.o"
+},
+{
+  "directory": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build",
+  "command": "/usr/bin/c++  -I/Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/vertex -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glm -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/shaders -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/textures -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++20 -arch arm64 -o CMakeFiles/main.dir/src/vertexArray.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/vertexArray.cpp",
+  "file": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/vertexArray.cpp",
+  "output": "CMakeFiles/main.dir/src/vertexArray.cpp.o"
+},
+{
+  "directory": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build",
+  "command": "/usr/bin/c++  -I/Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/vertex -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glm -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/shaders -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/textures -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++20 -arch arm64 -o CMakeFiles/main.dir/src/vertexBuffer.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/vertexBuffer.cpp",
+  "file": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/vertexBuffer.cpp",
+  "output": "CMakeFiles/main.dir/src/vertexBuffer.cpp.o"
+},
+{
+  "directory": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build",
+  "command": "/usr/bin/c++  -I/Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/vertex -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glm -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/shaders -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/textures -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++20 -arch arm64 -o CMakeFiles/main.dir/src/indexBuffer.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/indexBuffer.cpp",
+  "file": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/indexBuffer.cpp",
+  "output": "CMakeFiles/main.dir/src/indexBuffer.cpp.o"
+},
+{
+  "directory": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build",
+  "command": "/usr/bin/c++  -I/Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/vertex -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glm -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/shaders -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/textures -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++20 -arch arm64 -o CMakeFiles/main.dir/src/renderer.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/renderer.cpp",
+  "file": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/renderer.cpp",
+  "output": "CMakeFiles/main.dir/src/renderer.cpp.o"
+},
+{
+  "directory": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build",
+  "command": "/usr/bin/c++  -I/Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/vertex -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glm -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/shaders -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/textures -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++20 -arch arm64 -o CMakeFiles/main.dir/src/shader.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/shader.cpp",
+  "file": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/shader.cpp",
+  "output": "CMakeFiles/main.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build",
+  "command": "/usr/bin/c++  -I/Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/vertex -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glm -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/shaders -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/textures -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++20 -arch arm64 -o CMakeFiles/main.dir/src/stb_image.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/stb_image.cpp",
+  "file": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/stb_image.cpp",
+  "output": "CMakeFiles/main.dir/src/stb_image.cpp.o"
+},
+{
+  "directory": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build",
+  "command": "/usr/bin/c++  -I/Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/vertex -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glm -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/shaders -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/textures -I/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++20 -arch arm64 -o CMakeFiles/main.dir/src/texture.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/texture.cpp",
+  "file": "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/texture.cpp",
+  "output": "CMakeFiles/main.dir/src/texture.cpp.o"
+}
+]
