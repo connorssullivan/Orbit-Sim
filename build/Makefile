@@ -129,6 +129,43 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named assimp
+
+# Build rule for target.
+assimp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assimp
+.PHONY : assimp
+
+# fast build rule for target.
+assimp/fast:
+	$(MAKE) $(MAKESILENT) -f assimp/code/CMakeFiles/assimp.dir/build.make assimp/code/CMakeFiles/assimp.dir/build
+.PHONY : assimp/fast
+
+src/backGroundTexture.o: src/backGroundTexture.cpp.o
+.PHONY : src/backGroundTexture.o
+
+# target to build an object file
+src/backGroundTexture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/backGroundTexture.cpp.o
+.PHONY : src/backGroundTexture.cpp.o
+
+src/backGroundTexture.i: src/backGroundTexture.cpp.i
+.PHONY : src/backGroundTexture.i
+
+# target to preprocess a source file
+src/backGroundTexture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/backGroundTexture.cpp.i
+.PHONY : src/backGroundTexture.cpp.i
+
+src/backGroundTexture.s: src/backGroundTexture.cpp.s
+.PHONY : src/backGroundTexture.s
+
+# target to generate assembly for a file
+src/backGroundTexture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/backGroundTexture.cpp.s
+.PHONY : src/backGroundTexture.cpp.s
+
 src/callbacks.o: src/callbacks.cpp.o
 .PHONY : src/callbacks.o
 
@@ -225,6 +262,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/model.o: src/model.cpp.o
+.PHONY : src/model.o
+
+# target to build an object file
+src/model.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/model.cpp.o
+.PHONY : src/model.cpp.o
+
+src/model.i: src/model.cpp.i
+.PHONY : src/model.i
+
+# target to preprocess a source file
+src/model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/model.cpp.i
+.PHONY : src/model.cpp.i
+
+src/model.s: src/model.cpp.s
+.PHONY : src/model.s
+
+# target to generate assembly for a file
+src/model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/model.cpp.s
+.PHONY : src/model.cpp.s
+
+src/planet.o: src/planet.cpp.o
+.PHONY : src/planet.o
+
+# target to build an object file
+src/planet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/planet.cpp.o
+.PHONY : src/planet.cpp.o
+
+src/planet.i: src/planet.cpp.i
+.PHONY : src/planet.i
+
+# target to preprocess a source file
+src/planet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/planet.cpp.i
+.PHONY : src/planet.cpp.i
+
+src/planet.s: src/planet.cpp.s
+.PHONY : src/planet.s
+
+# target to generate assembly for a file
+src/planet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/planet.cpp.s
+.PHONY : src/planet.cpp.s
+
 src/renderer.o: src/renderer.cpp.o
 .PHONY : src/renderer.o
 
@@ -296,30 +381,6 @@ src/stb_image.s: src/stb_image.cpp.s
 src/stb_image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/stb_image.cpp.s
 .PHONY : src/stb_image.cpp.s
-
-src/texture.o: src/texture.cpp.o
-.PHONY : src/texture.o
-
-# target to build an object file
-src/texture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/texture.cpp.o
-.PHONY : src/texture.cpp.o
-
-src/texture.i: src/texture.cpp.i
-.PHONY : src/texture.i
-
-# target to preprocess a source file
-src/texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/texture.cpp.i
-.PHONY : src/texture.cpp.i
-
-src/texture.s: src/texture.cpp.s
-.PHONY : src/texture.s
-
-# target to generate assembly for a file
-src/texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/texture.cpp.s
-.PHONY : src/texture.cpp.s
 
 src/vertexArray.o: src/vertexArray.cpp.o
 .PHONY : src/vertexArray.o
@@ -401,7 +462,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... assimp"
 	@echo "... main"
+	@echo "... src/backGroundTexture.o"
+	@echo "... src/backGroundTexture.i"
+	@echo "... src/backGroundTexture.s"
 	@echo "... src/callbacks.o"
 	@echo "... src/callbacks.i"
 	@echo "... src/callbacks.s"
@@ -414,6 +479,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/model.o"
+	@echo "... src/model.i"
+	@echo "... src/model.s"
+	@echo "... src/planet.o"
+	@echo "... src/planet.i"
+	@echo "... src/planet.s"
 	@echo "... src/renderer.o"
 	@echo "... src/renderer.i"
 	@echo "... src/renderer.s"
@@ -423,9 +494,6 @@ help:
 	@echo "... src/stb_image.o"
 	@echo "... src/stb_image.i"
 	@echo "... src/stb_image.s"
-	@echo "... src/texture.o"
-	@echo "... src/texture.i"
-	@echo "... src/texture.s"
 	@echo "... src/vertexArray.o"
 	@echo "... src/vertexArray.i"
 	@echo "... src/vertexArray.s"

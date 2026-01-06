@@ -212,19 +212,47 @@ CMakeFiles/main.dir/src/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/stb_image.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/stb_image.cpp -o CMakeFiles/main.dir/src/stb_image.cpp.s
 
-CMakeFiles/main.dir/src/texture.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/texture.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/texture.cpp
-CMakeFiles/main.dir/src/texture.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/texture.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/texture.cpp.o -MF CMakeFiles/main.dir/src/texture.cpp.o.d -o CMakeFiles/main.dir/src/texture.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/texture.cpp
+CMakeFiles/main.dir/src/backGroundTexture.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/backGroundTexture.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/backGroundTexture.cpp
+CMakeFiles/main.dir/src/backGroundTexture.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/backGroundTexture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/backGroundTexture.cpp.o -MF CMakeFiles/main.dir/src/backGroundTexture.cpp.o.d -o CMakeFiles/main.dir/src/backGroundTexture.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/backGroundTexture.cpp
 
-CMakeFiles/main.dir/src/texture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/texture.cpp > CMakeFiles/main.dir/src/texture.cpp.i
+CMakeFiles/main.dir/src/backGroundTexture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/backGroundTexture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/backGroundTexture.cpp > CMakeFiles/main.dir/src/backGroundTexture.cpp.i
 
-CMakeFiles/main.dir/src/texture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/texture.cpp -o CMakeFiles/main.dir/src/texture.cpp.s
+CMakeFiles/main.dir/src/backGroundTexture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/backGroundTexture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/backGroundTexture.cpp -o CMakeFiles/main.dir/src/backGroundTexture.cpp.s
+
+CMakeFiles/main.dir/src/model.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/model.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/model.cpp
+CMakeFiles/main.dir/src/model.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/model.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/model.cpp.o -MF CMakeFiles/main.dir/src/model.cpp.o.d -o CMakeFiles/main.dir/src/model.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/model.cpp
+
+CMakeFiles/main.dir/src/model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/model.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/model.cpp > CMakeFiles/main.dir/src/model.cpp.i
+
+CMakeFiles/main.dir/src/model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/model.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/model.cpp -o CMakeFiles/main.dir/src/model.cpp.s
+
+CMakeFiles/main.dir/src/planet.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/planet.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/planet.cpp
+CMakeFiles/main.dir/src/planet.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/planet.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/planet.cpp.o -MF CMakeFiles/main.dir/src/planet.cpp.o.d -o CMakeFiles/main.dir/src/planet.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/planet.cpp
+
+CMakeFiles/main.dir/src/planet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/planet.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/planet.cpp > CMakeFiles/main.dir/src/planet.cpp.i
+
+CMakeFiles/main.dir/src/planet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/planet.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/planet.cpp -o CMakeFiles/main.dir/src/planet.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -238,7 +266,9 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/renderer.cpp.o" \
 "CMakeFiles/main.dir/src/shader.cpp.o" \
 "CMakeFiles/main.dir/src/stb_image.cpp.o" \
-"CMakeFiles/main.dir/src/texture.cpp.o"
+"CMakeFiles/main.dir/src/backGroundTexture.cpp.o" \
+"CMakeFiles/main.dir/src/model.cpp.o" \
+"CMakeFiles/main.dir/src/planet.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -253,11 +283,15 @@ main: CMakeFiles/main.dir/src/indexBuffer.cpp.o
 main: CMakeFiles/main.dir/src/renderer.cpp.o
 main: CMakeFiles/main.dir/src/shader.cpp.o
 main: CMakeFiles/main.dir/src/stb_image.cpp.o
-main: CMakeFiles/main.dir/src/texture.cpp.o
+main: CMakeFiles/main.dir/src/backGroundTexture.cpp.o
+main: CMakeFiles/main.dir/src/model.cpp.o
+main: CMakeFiles/main.dir/src/planet.cpp.o
 main: CMakeFiles/main.dir/build.make
+main: assimp/bin/libassimp.6.0.2.dylib
 main: /usr/local/lib/libglfw3.a
+main: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libz.tbd
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

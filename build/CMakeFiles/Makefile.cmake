@@ -8,15 +8,27 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/CMakeLists.txt"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/CMakeLists.txt"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/assimp.pc.in"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/cmake-modules/FindPkgMacros.cmake"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/cmake-modules/FindRT.cmake"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/cmake-modules/FindZLIB.cmake"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/cmake-modules/PrecompiledHeader.cmake"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/cmake-modules/assimp-plain-config.cmake.in"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/code/CMakeLists.txt"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/config.h.in"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/revision.h.in"
   "CMakeFiles/4.0.3/CMakeCCompiler.cmake"
   "CMakeFiles/4.0.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.3/CMakeSystem.cmake"
+  "/opt/homebrew/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake"
+  "/opt/homebrew/share/cmake/Modules/CMakePackageConfigHelpers.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
   "/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-C.cmake"
@@ -27,6 +39,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake"
   "/opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake"
+  "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake"
+  "/opt/homebrew/share/cmake/Modules/GNUInstallDirs.cmake"
   "/opt/homebrew/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
@@ -44,6 +58,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake"
   "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake"
   "/opt/homebrew/share/cmake/Modules/Platform/UnixPaths.cmake"
+  "/opt/homebrew/share/cmake/Modules/WriteBasicConfigVersionFile.cmake"
   )
 
 # The corresponding makefile is:
@@ -55,9 +70,17 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "assimp/generated/assimpConfigVersion.cmake"
+  "assimp/generated/assimpConfig.cmake"
+  "assimp/assimp.pc"
+  "assimp/include/assimp/revision.h"
+  "assimp/include/assimp/config.h"
+  "assimp/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "assimp/code/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
+  "assimp/code/CMakeFiles/assimp.dir/DependInfo.cmake"
   )
