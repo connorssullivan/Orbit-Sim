@@ -4,6 +4,8 @@ A modern OpenGL-based solar system simulation written in C++. The project focuse
 
 &#x20;  &#x20;
 
+![ezgif com-video-to-gif-converter (3)](https://github.com/user-attachments/assets/2ea90bc8-e53d-4e01-8864-6b80b8101afa)
+
 ---
 
 ## 🪐 Overview
