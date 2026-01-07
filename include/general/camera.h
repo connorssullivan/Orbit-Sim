@@ -38,7 +38,7 @@ class Camera
         float m_mouseSpeed;
         float m_zoom;
 
-        Camera(glm::vec3 position = glm::vec3(0.0f, 0.0f, -3.0f), glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f), 
+        Camera(glm::vec3 position = glm::vec3(0.0f, 0.0f, 30.0f), glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f), 
                 float yaw = DEFAULT_YAW, float pitch = DEFAULT_PITCH)
                 : m_front {glm::vec3(0.0f, 0.0f, -1.0f)}
                 , m_mouseSpeed {SPEED}

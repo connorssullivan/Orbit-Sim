@@ -142,6 +142,32 @@ assimp/fast:
 	$(MAKE) $(MAKESILENT) -f assimp/code/CMakeFiles/assimp.dir/build.make assimp/code/CMakeFiles/assimp.dir/build
 .PHONY : assimp/fast
 
+#=============================================================================
+# Target rules for targets named glfw
+
+# Build rule for target.
+glfw: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw
+.PHONY : glfw
+
+# fast build rule for target.
+glfw/fast:
+	$(MAKE) $(MAKESILENT) -f glfw/src/CMakeFiles/glfw.dir/build.make glfw/src/CMakeFiles/glfw.dir/build
+.PHONY : glfw/fast
+
+#=============================================================================
+# Target rules for targets named update_mappings
+
+# Build rule for target.
+update_mappings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 update_mappings
+.PHONY : update_mappings
+
+# fast build rule for target.
+update_mappings/fast:
+	$(MAKE) $(MAKESILENT) -f glfw/src/CMakeFiles/update_mappings.dir/build.make glfw/src/CMakeFiles/update_mappings.dir/build
+.PHONY : update_mappings/fast
+
 src/backGroundTexture.o: src/backGroundTexture.cpp.o
 .PHONY : src/backGroundTexture.o
 
@@ -462,7 +488,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... update_mappings"
 	@echo "... assimp"
+	@echo "... glfw"
 	@echo "... main"
 	@echo "... src/backGroundTexture.o"
 	@echo "... src/backGroundTexture.i"

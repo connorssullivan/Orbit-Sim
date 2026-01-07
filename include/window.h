@@ -43,7 +43,8 @@ class Window
         void swapBuffers() const {glfwSwapBuffers(m_window);}
         void pollEvents() const {glfwPollEvents();}
         float getLastTime() const {return m_lastTime;};
-        const Camera& getCamera() const {return m_camera;}
+        float getDeltaTime() const {return m_deltaTime;};
+        Camera& getCamera() {return m_camera;}
 
         // setters
         void setLastTime(const float time) {m_lastTime = time;};

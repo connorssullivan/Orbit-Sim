@@ -1000,7 +1000,7 @@ CMakeFiles/main.dir/src/callbacks.cpp.o: /Users/connorsullivan/CodeProjects/lear
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_wchar_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  /Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include/GLFW/glfw3.h \
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glfw/include/GLFW/glfw3.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/callbacks.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glad/glad.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glad/khrplatform.h
@@ -3050,7 +3050,6 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/connorsullivan/CodeProjects/learnopen
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  /Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include/GLFW/glfw3.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/Compiler/poppack1.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/Compiler/pushpack1.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/Importer.hpp \
@@ -3081,6 +3080,7 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/connorsullivan/CodeProjects/learnopen
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/vector3.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/vector3.inl \
   assimp/include/assimp/config.h \
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glfw/include/GLFW/glfw3.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/callbacks.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/config.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general/camera.h \
@@ -4387,7 +4387,6 @@ CMakeFiles/main.dir/src/model.cpp.o: /Users/connorsullivan/CodeProjects/learnope
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  /Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include/GLFW/glfw3.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/Compiler/poppack1.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/Compiler/pushpack1.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/Importer.hpp \
@@ -4418,6 +4417,7 @@ CMakeFiles/main.dir/src/model.cpp.o: /Users/connorsullivan/CodeProjects/learnope
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/vector3.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/vector3.inl \
   assimp/include/assimp/config.h \
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glfw/include/GLFW/glfw3.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glad/glad.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glad/khrplatform.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glm/common.hpp \
@@ -5714,7 +5714,6 @@ CMakeFiles/main.dir/src/planet.cpp.o: /Users/connorsullivan/CodeProjects/learnop
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  /Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include/GLFW/glfw3.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/Compiler/poppack1.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/Compiler/pushpack1.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/Importer.hpp \
@@ -5745,6 +5744,7 @@ CMakeFiles/main.dir/src/planet.cpp.o: /Users/connorsullivan/CodeProjects/learnop
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/vector3.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/include/assimp/vector3.inl \
   assimp/include/assimp/config.h \
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glfw/include/GLFW/glfw3.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glad/glad.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glad/khrplatform.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glm/common.hpp \
@@ -11483,7 +11483,7 @@ CMakeFiles/main.dir/src/window.cpp.o: /Users/connorsullivan/CodeProjects/learnop
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  /Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include/GLFW/glfw3.h \
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glfw/include/GLFW/glfw3.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/callbacks.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/config.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general/camera.h \
@@ -11988,6 +11988,8 @@ CMakeFiles/main.dir/src/window.cpp.o: /Users/connorsullivan/CodeProjects/learnop
 /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/glad.c:
 
 /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/callbacks.h:
+
+/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glfw/include/GLFW/glfw3.h:
 
 /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/callbacks.cpp:
 
@@ -13202,8 +13204,6 @@ CMakeFiles/main.dir/src/window.cpp.o: /Users/connorsullivan/CodeProjects/learnop
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/limits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_log2.h:
-
-/Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include/GLFW/glfw3.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h:
 

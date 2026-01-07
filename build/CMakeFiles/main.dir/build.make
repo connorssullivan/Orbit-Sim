@@ -288,7 +288,8 @@ main: CMakeFiles/main.dir/src/model.cpp.o
 main: CMakeFiles/main.dir/src/planet.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: assimp/bin/libassimp.6.0.2.dylib
-main: /usr/local/lib/libglfw3.a
+main: glfw/src/libglfw.3.5.dylib
+main: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
 main: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libz.tbd
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable main"

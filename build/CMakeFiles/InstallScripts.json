@@ -3,7 +3,9 @@
 	[
 		"/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/cmake_install.cmake",
 		"/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/assimp/cmake_install.cmake",
-		"/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/assimp/code/cmake_install.cmake"
+		"/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/assimp/code/cmake_install.cmake",
+		"/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/glfw/cmake_install.cmake",
+		"/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/glfw/src/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

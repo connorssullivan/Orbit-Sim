@@ -81,7 +81,7 @@ void Shader::SetShader(const char* vertexPath, const char* fragPath)
     GLCall(glGetProgramiv(m_shaderID, GL_LINK_STATUS, &success));
     if (!success)
     {
-        glGetShaderInfoLog(m_shaderID, 512, nullptr, infoLog);
+        glGetProgramInfoLog(m_shaderID, 512, nullptr, infoLog);
         std::cout << "Error Linking shaders: " << infoLog << "\n";
     }
 
@@ -100,12 +100,18 @@ void Shader::SetFloat(const std::string& name, float value) const
 
 void Shader::SetInt(const std::string& name, int value) const
 {
-    GLCall(glUniform1i(glGetUniformLocation(m_shaderID, name.c_str()), value));
+    int location = glGetUniformLocation(m_shaderID, name.c_str());
+    if (location == -1) return;
+
+    GLCall(glUniform1i(location, value));
 }
 
 void Shader::SetBool(const std::string& name, bool value) const
 {
-    GLCall(glUniform1i(glGetUniformLocation(m_shaderID, name.c_str()), value));
+    int location = glGetUniformLocation(m_shaderID, name.c_str());
+    if (location == -1) return;
+
+    GLCall(glUniform1i(location, value));
 }
 
 void Shader::SetMat4(const std::string& name, const glm::mat4& mat) const

@@ -1180,7 +1180,7 @@ CMakeFiles/main.dir/src/model.cpp.o: \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glm/detail/func_integer.inl \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/renderer.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/model/mesh.h \
-  /Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include/GLFW/glfw3.h \
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glfw/include/GLFW/glfw3.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glm/gtc/matrix_transform.hpp \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glm/gtc/../mat4x4.hpp \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glm/gtc/../vec2.hpp \

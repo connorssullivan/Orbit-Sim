@@ -1205,7 +1205,7 @@ CMakeFiles/main.dir/src/planet.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/renderer.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/model/mesh.h \
-  /Users/connorsullivan/CodeProjects/glfw-3.4.bin.MACOS/include/GLFW/glfw3.h \
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glfw/include/GLFW/glfw3.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glm/gtc/type_ptr.hpp \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glm/gtc/../gtc/quaternion.hpp \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/glm/gtc/../gtc/../gtc/constants.hpp \
