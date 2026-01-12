@@ -5,12 +5,13 @@ A modern OpenGL-based solar system simulation written in C++. The project focuse
 &#x20;  &#x20;
 
 ![ezgif com-video-to-gif-converter (3)](https://github.com/user-attachments/assets/2ea90bc8-e53d-4e01-8864-6b80b8101afa)
+<img width="798" height="599" alt="Screenshot 2026-01-12 at 1 54 49 PM" src="https://github.com/user-attachments/assets/7ea9e6d2-dfd8-49ab-b871-a1bc036c2fd2" />
 
 ---
 
 ## 🪐 Overview
 
-**OrbitSim** is a real-time OpenGL application that visualizes a simplified 3D solar system using Newtonian gravity. It is designed as a portfolio-quality project demonstrating modern C++ practices, graphics programming fundamentals, and clean system separation inspired by LearnOpenGL-style engines.
+**OrbitSim** is a real-time OpenGL application that visualizes a simplified 3D solar system using Newtonian gravity. Adjust planet sizes and make your own solar system!
 
 ---
 
