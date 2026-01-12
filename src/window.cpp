@@ -39,7 +39,7 @@ Window::Window() : m_deltaTime(0.0f), m_lastTime(0.0f),
     glClear(GL_COLOR_BUFFER_BIT);
 
     glfwSetFramebufferSizeCallback(m_window, CallBacks::frameBufferSizeCallback);
-    glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_DISABLED); // Capture Cursor
+    glfwSetInputMode(m_window, GLFW_CURSOR, GLFW_CURSOR_NORMAL); // Capture Cursor
     glfwSetWindowUserPointer(m_window, this);
 
     glfwSetCursorPosCallback(m_window, Window::mouse_callback);
@@ -57,6 +57,12 @@ Window::~Window()
 
 void Window::onMouse(double xpos, double ypos)
 {
+    if (!m_mouseCaptured)
+        return;
+    ImGuiIO& io = ImGui::GetIO();
+    if (io.WantCaptureMouse)
+        return; // ImGui is using the mouse
+
     if (m_firstMouse)
     {
         m_lastX = xpos;
@@ -83,6 +89,26 @@ void m_onMouse(double xpos, double ypos);
 void m_onScroll(double yoffset);
 
 void Window::processInput() {
+    static bool lastTab = false;
+    bool tab = glfwGetKey(m_window, GLFW_KEY_SPACE) == GLFW_PRESS;
+
+    if (tab && !lastTab)
+    {
+        m_mouseCaptured = !m_mouseCaptured;
+        glfwSetInputMode(
+            m_window,
+            GLFW_CURSOR,
+            m_mouseCaptured ? GLFW_CURSOR_DISABLED : GLFW_CURSOR_NORMAL
+        );
+        m_firstMouse = true;
+    }
+
+    lastTab = tab;
+
+    ImGuiIO& io = ImGui::GetIO();
+    if (io.WantCaptureKeyboard)
+        return;
+
     if (glfwGetKey(m_window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(m_window, true);
 

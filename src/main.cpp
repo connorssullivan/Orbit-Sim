@@ -19,6 +19,11 @@
 #include "general/camera.h"
 #include "planet.h"
 
+#include <imgui.h>
+#include <imgui_impl_glfw.h>
+#include <imgui_impl_opengl3.h>
+
+
 Camera camera;
 
 float deltaTime = 0.0f; // Time between current frame and last frame
@@ -34,10 +39,12 @@ bool firstMouse {true};
 constexpr double TIME_SCALE = 0.01; // What universe sandbox uses
 constexpr double G = 39.47841760435743; // 4π²
 constexpr double PHYSICS_DT = 1.0 / 1000.0; // years per step
-constexpr int PHYSICS_STEPS = 1; // speed-up factor
+int PHYSICS_STEPS = 1; // speed-up factor
+bool simulationPaused = true;
+float DISTANCE_SCALE = 2.5; // AU → render units
 
-constexpr double DISTANCE_SCALE = 2.0; // AU → render units
 constexpr double SIZE_SCALE = 10.0; 
+
 
 float fov {45.f};
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
@@ -48,6 +55,13 @@ int main() {
 
     Window window;
     glEnable(GL_DEPTH_TEST);
+
+    IMGUI_CHECKVERSION();
+    ImGui::CreateContext();
+    ImGui::StyleColorsDark();
+
+    ImGui_ImplGlfw_InitForOpenGL(window.get(), true);
+    ImGui_ImplOpenGL3_Init("#version 330");
 
     // Load Shaders
     Shader planetShader;
@@ -209,7 +223,7 @@ int main() {
         glm::radians(20.0f)
     );
 
-    // ---- Uranus ----
+    // ---- Neptune ----
     planets.emplace_back(
         ModelPaths::NEPTUNE_MODEL,
         glm::dvec3(Solar::NEPTUNE_AU, 0.0, 0.0),
@@ -220,9 +234,16 @@ int main() {
     );
 
     Planet& sun   = planets[0];
+    Planet& mercury = planets[1];
+    Planet& venus = planets[2];
     Planet& earth = planets[3];
     //Planet& moon  = planets[4];
-    Planet& mars  = planets[5];
+    Planet& mars  = planets[4];
+    Planet& juipiter  = planets[5];
+    Planet& saturn  = planets[6];
+    Planet& saturn_ring  = planets[7];
+    Planet& uranus  = planets[8];
+    Planet& neptune  = planets[9];
 
 
 
@@ -238,6 +259,9 @@ int main() {
     window.setLastTime(glfwGetTime());
     while (!window.shouldClose())
     {
+        ImGui_ImplOpenGL3_NewFrame();
+        ImGui_ImplGlfw_NewFrame();
+        ImGui::NewFrame();
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         // Timing 
@@ -317,23 +341,25 @@ int main() {
         //year += TIME_SCALE;
         //std::cout << year << "\n";
 
-        for (int step = 0; step < PHYSICS_STEPS; ++step)
+        if (!simulationPaused)
         {
-            for (auto& p : planets)
-                p.acceleration = glm::dvec3(0.0);
+            for (int step = 0; step < PHYSICS_STEPS; ++step)
+            {
+                for (auto& p : planets)
+                    p.acceleration = glm::dvec3(0.0);
 
-            for (size_t i = 0; i < planets.size(); ++i)
-                for (size_t j = 0; j < planets.size(); ++j)
-                    if (i != j)
-                        planets[i].ApplyGravity(planets[j]);
+                for (size_t i = 0; i < planets.size(); ++i)
+                    for (size_t j = 0; j < planets.size(); ++j)
+                        if (i != j)
+                            planets[i].ApplyGravity(planets[j]);
 
-            for (auto& p : planets)
-                p.UpdatePhysics(PHYSICS_DT);
+                for (auto& p : planets)
+                    p.UpdatePhysics(PHYSICS_DT);
 
+            }
         }
 
 
-        // rendering
         // rendering
         for (auto& p : planets) {
             p.UpdateRender(currentTime, DISTANCE_SCALE);
@@ -341,8 +367,37 @@ int main() {
         }
         
 
+        ///////////////////////////////////
+        //            IAM GUI
+        //////////////////////////////////
+        ImGui::Begin("Simulation");
+
+        if (ImGui::Button(simulationPaused ? "Play" : "Pause"))
+        {
+            simulationPaused = !simulationPaused;
+        }
+
+        ImGui::SliderInt("Speed", &PHYSICS_STEPS, 1, 200);
+        ImGui::SliderFloat("Distance", &DISTANCE_SCALE, 1.0f, 10.0f);
+        ImGui::SliderFloat("Mercury Size", &mercury.m_sizeMultiplier, 0.10, 10.0);
+        ImGui::SliderFloat("Venus Size", &venus.m_sizeMultiplier, 0.10, 10.0);
+        ImGui::SliderFloat("Earth Size", &earth.m_sizeMultiplier, 0.10, 10.0);
+        ImGui::SliderFloat("Mars Size", &mars.m_sizeMultiplier, 0.10, 10.0);
+        ImGui::SliderFloat("Juipiter Size", &juipiter.m_sizeMultiplier, 0.10, 10.0);
+        ImGui::SliderFloat("Saturn Size", &saturn.m_sizeMultiplier, 0.10, 10.0);
+        saturn_ring.m_sizeMultiplier = saturn.m_sizeMultiplier;
+        ImGui::SliderFloat("Uranus Size", &uranus.m_sizeMultiplier, 0.10, 10.0);
+        ImGui::SliderFloat("Neptune Size", &neptune.m_sizeMultiplier, 0.10, 10.0);
+
+
+        ImGui::End();
+
+
         // Extra
         window.processInput();
+
+        ImGui::Render();
+        ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 
         window.swapBuffers();
         window.pollEvents();

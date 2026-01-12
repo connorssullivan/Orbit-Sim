@@ -33,7 +33,7 @@ namespace Solar
     constexpr double NEPTUNE_MASS = 5.151e-5;
 
     // ---- Semi-major axes (AU) ----
-    constexpr double MERCURY_AU = 0.387;
+    constexpr double MERCURY_AU = 0.487;
     constexpr double VENUS_AU   = 0.723;
     constexpr double EARTH_AU   = 1.000;
     constexpr double MARS_AU    = 1.524;

@@ -9,6 +9,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/glad.c" "CMakeFiles/main.dir/src/glad.c.o" "gcc" "CMakeFiles/main.dir/src/glad.c.o.d"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_glfw.cpp" "CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o" "gcc" "CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o.d"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_opengl3.cpp" "CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o" "gcc" "CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o.d"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui.cpp" "CMakeFiles/main.dir/external/imgui/imgui.cpp.o" "gcc" "CMakeFiles/main.dir/external/imgui/imgui.cpp.o.d"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_draw.cpp" "CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o" "gcc" "CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o.d"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_tables.cpp" "CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o" "gcc" "CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o.d"
+  "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_widgets.cpp" "CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o" "gcc" "CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o.d"
   "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/backGroundTexture.cpp" "CMakeFiles/main.dir/src/backGroundTexture.cpp.o" "gcc" "CMakeFiles/main.dir/src/backGroundTexture.cpp.o.d"
   "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/callbacks.cpp" "CMakeFiles/main.dir/src/callbacks.cpp.o" "gcc" "CMakeFiles/main.dir/src/callbacks.cpp.o.d"
   "/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/indexBuffer.cpp" "CMakeFiles/main.dir/src/indexBuffer.cpp.o" "gcc" "CMakeFiles/main.dir/src/indexBuffer.cpp.o.d"

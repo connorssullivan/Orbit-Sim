@@ -1185,6 +1185,8 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/callbacks.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/window.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general/camera.h \
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui.h \
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imconfig.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/renderer.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/vertex/vertexBuffer.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/vertex/indexBuffer.h \
@@ -1334,4 +1336,7 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/code/../include/assimp/anim.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/code/../include/assimp/metadata.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/code/../include/assimp/Importer.hpp \
-  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/code/../include/assimp/postprocess.h
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/assimp/code/../include/assimp/postprocess.h \
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_glfw.h \
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_opengl3.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h

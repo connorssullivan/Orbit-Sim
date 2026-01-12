@@ -16,10 +16,13 @@ public:
     glm::dvec3 velocity {0.0};
     glm::dvec3 acceleration {0.0};
     glm::dvec3 previousAcceleration {0.0};
+    double m_baseMass;
     double mass;
 
     // ---- Visual ----
     float scale;
+    float m_sizeMultiplier;
+    float m_baseScale;
     float spinSpeed;
     glm::mat4 modelMatrix {1.0f};
 
@@ -37,4 +40,7 @@ public:
     // Rendering
     void UpdateRender(float time, double distanceScale);
     void Draw(Shader& shader);
+
+    void ApplyScaleMultipliers();
+
 };

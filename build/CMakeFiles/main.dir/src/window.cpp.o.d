@@ -1183,4 +1183,6 @@ CMakeFiles/main.dir/src/window.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/config.h \
   /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/callbacks.h \
-  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general/camera.h
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/include/general/camera.h \
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui.h \
+  /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imconfig.h

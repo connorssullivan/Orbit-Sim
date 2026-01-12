@@ -8,7 +8,10 @@
 
 #include "config.h"
 #include "callbacks.h"
-#include "camera.h"
+#include "general/camera.h"
+
+#include <imgui.h>
+
 
 
 class Window
@@ -24,6 +27,8 @@ class Window
         float m_lastY;
         float m_fov;
         bool m_firstMouse;
+        bool m_mouseCaptured = false;
+
 
         Camera m_camera;
 

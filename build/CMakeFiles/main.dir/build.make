@@ -254,6 +254,90 @@ CMakeFiles/main.dir/src/planet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/planet.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/planet.cpp -o CMakeFiles/main.dir/src/planet.cpp.s
 
+CMakeFiles/main.dir/external/imgui/imgui.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/external/imgui/imgui.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui.cpp
+CMakeFiles/main.dir/external/imgui/imgui.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/external/imgui/imgui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/imgui.cpp.o -MF CMakeFiles/main.dir/external/imgui/imgui.cpp.o.d -o CMakeFiles/main.dir/external/imgui/imgui.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui.cpp
+
+CMakeFiles/main.dir/external/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/external/imgui/imgui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui.cpp > CMakeFiles/main.dir/external/imgui/imgui.cpp.i
+
+CMakeFiles/main.dir/external/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/external/imgui/imgui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui.cpp -o CMakeFiles/main.dir/external/imgui/imgui.cpp.s
+
+CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_draw.cpp
+CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o -MF CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o.d -o CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_draw.cpp
+
+CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_draw.cpp > CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.i
+
+CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_draw.cpp -o CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.s
+
+CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_tables.cpp
+CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o -MF CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o.d -o CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_tables.cpp
+
+CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_tables.cpp > CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.i
+
+CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_tables.cpp -o CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.s
+
+CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_widgets.cpp
+CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o -MF CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_widgets.cpp
+
+CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_widgets.cpp > CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_widgets.cpp -o CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.s
+
+CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_glfw.cpp
+CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_glfw.cpp
+
+CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.i
+
+CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.s
+
+CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_opengl3.cpp
+CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_opengl3.cpp
+
+CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.o" \
@@ -268,7 +352,13 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/stb_image.cpp.o" \
 "CMakeFiles/main.dir/src/backGroundTexture.cpp.o" \
 "CMakeFiles/main.dir/src/model.cpp.o" \
-"CMakeFiles/main.dir/src/planet.cpp.o"
+"CMakeFiles/main.dir/src/planet.cpp.o" \
+"CMakeFiles/main.dir/external/imgui/imgui.cpp.o" \
+"CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o" \
+"CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -286,13 +376,19 @@ main: CMakeFiles/main.dir/src/stb_image.cpp.o
 main: CMakeFiles/main.dir/src/backGroundTexture.cpp.o
 main: CMakeFiles/main.dir/src/model.cpp.o
 main: CMakeFiles/main.dir/src/planet.cpp.o
+main: CMakeFiles/main.dir/external/imgui/imgui.cpp.o
+main: CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o
+main: CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o
+main: CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o
+main: CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o
+main: CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: assimp/bin/libassimp.6.0.2.dylib
 main: glfw/src/libglfw.3.5.dylib
 main: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
 main: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libz.tbd
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

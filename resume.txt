@@ -1,0 +1,278 @@
+%-------------------------------------
+% LaTeX Resume for Software Engineers
+% Author : Leslie Cheng
+% License : MIT
+%-------------------------------------
+
+\documentclass[letterpaper,10pt]{article}[leftmargin=*]
+
+\usepackage[empty]{fullpage}
+\usepackage{enumitem}
+\usepackage{ifxetex}
+\ifxetex
+  \usepackage{fontspec}
+  \usepackage[xetex]{hyperref}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[pdftex]{hyperref}
+\fi
+\usepackage{fontawesome}
+\usepackage[sfdefault,light]{FiraSans}
+\usepackage{anyfontsize}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+%-------------------------------------------------- SETTINGS HERE --------------------------------------------------
+% Header settings
+\def \fullname {Connor Sullivan}
+\def \subtitle {}
+
+\def \linkedinicon {\faLinkedin}
+\def \linkedinlink {https://www.linkedin.com/in/connor-sullivan-b24911254/}
+\def \linkedintext {Connor Sullivan}
+
+\def \phoneicon {\faPhone}
+\def \phonetext {+1-240-801-0426}
+
+\def \emailicon {\faEnvelope}
+\def \emaillink {mailto:connorssullivan25@gmail.com}
+\def \emailtext {connorssullivan25@gmail.com}
+
+\def \githubicon {\faGithub}
+\def \githublink {https://github.com/connorssullivan}
+\def \githubtext {github.com/connorssullivan}
+
+%\def \websiteicon {\faGlobe}
+%\def \websitelink {https://google.com/}
+%\def \websitetext {dwightschrute.com}
+
+\def \headertype {\doublecol} % \singlecol or \doublecol
+
+% Misc settings
+\def \entryspacing {-0pt}
+
+\def \bulletstyle {\faAngleRight}
+
+% Define colours
+\definecolor{primary}{HTML}{000000}
+\definecolor{secondary}{HTML}{0D47A1}
+\definecolor{accent}{HTML}{263238}
+\definecolor{links}{HTML}{1565C0}
+
+%------------------------------------------------------------------------------------------------------------------- 
+
+% Defines to make listing easier
+\def \linkedin {\linkedinicon \hspace{3pt}\href{\linkedinlink}{\linkedintext}}
+\def \phone {\phoneicon \hspace{3pt}{ \phonetext}}
+\def \email {\emailicon \hspace{3pt}\href{\emaillink}{\emailtext}}
+\def \github {\githubicon \hspace{3pt}\href{\githublink}{\githubtext}}
+\def \website {\websiteicon \hspace{3pt}\href{\websitelink}{\websitetext}}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.55in}
+\addtolength{\textwidth}{1.1in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.1in}
+
+% Define the link colours
+\hypersetup{
+    colorlinks=true,
+    urlcolor=links,
+}
+
+% Set the margin alignment 
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-------------------------
+% Custom commands
+
+% Sections
+\renewcommand{\section}[2]{\vspace{5pt}
+  \colorbox{secondary}{\color{white}\raggedbottom\normalsize\textbf{{#1}{\hspace{7pt}#2}}}
+}
+
+% Entry start and end, for spacing
+\newcommand{\resumeEntryStart}{\begin{itemize}[leftmargin=2.5mm]}
+\newcommand{\resumeEntryEnd}{\end{itemize}\vspace{\entryspacing}}
+
+% Itemized list for the bullet points under an entry, if necessary
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=4.5mm]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+% Resume item
+\renewcommand{\labelitemii}{\bulletstyle}
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% Entry with title, subheading, date(s), and location
+\newcommand{\resumeEntryTSDL}[4]{
+  \vspace{-1pt}\item[]
+    \begin{tabularx}{0.97\textwidth}{X@{\hspace{60pt}}r}
+      \textbf{\color{primary}#1} & {\firabook\color{accent}\small#2} \\
+      \textit{\color{accent}\small#3} & \textit{\color{accent}\small#4} \\
+    \end{tabularx}\vspace{-6pt}
+}
+
+% Entry with title and date(s)
+\newcommand{\resumeEntryTD}[2]{
+  \vspace{-1pt}\item[]
+    \begin{tabularx}{0.97\textwidth}{X@{\hspace{60pt}}r}
+      \textbf{\color{primary}#1} & {\firabook\color{accent}\small#2} \\
+    \end{tabularx}\vspace{-6pt}
+}
+
+% Entry for special (skills)
+\newcommand{\resumeEntryS}[2]{
+  \item[]\small{
+    \textbf{\color{primary}#1 }{ #2 \vspace{-6pt}}
+  }
+}
+
+% Double column header
+\newcommand{\doublecol}[6]{
+  \begin{tabularx}{\textwidth}{Xr}
+    {
+      \begin{tabular}[c]{l}
+        \fontsize{35}{45}\selectfont{\color{primary}{{\textbf{\fullname}}}} \\
+        {\textit{\subtitle}} % You could add a subtitle here
+      \end{tabular}
+    } & {
+      \begin{tabular}[c]{l@{\hspace{1.5em}}l}
+        {\small#4} & {\small#1} \\
+        {\small#5} & {\small#2} \\
+        {\small#6} & {\small#3}
+      \end{tabular}
+    }
+  \end{tabularx}
+}
+
+% Single column header
+\newcommand{\singlecol}[6]{
+  \begin{tabularx}{\textwidth}{Xr}
+    {
+      \begin{tabular}[b]{l}
+        \fontsize{35}{45}\selectfont{\color{primary}{{\textbf{\fullname}}}} \\
+        {\textit{\subtitle}} % You could add a subtitle here
+      \end{tabular}
+    } & {
+      \begin{tabular}[c]{l}
+        {\small#1} \\
+        {\small#2} \\
+        {\small#3} \\
+        {\small#4} \\
+        {\small#5} \\
+        {\small#6}
+      \end{tabular}
+    }
+  \end{tabularx}
+}
+
+\begin{document}
+%-------------------------------------------------- BEGIN HERE --------------------------------------------------
+
+%---------------------------------------------------- HEADER ----------------------------------------------------
+
+\headertype{\linkedin}{\github}{\website}{\phone}{\email}{} % Set the order of items here
+\vspace{-10pt} % Set a negative value to push the body up, and the opposite
+
+%-------------------------------------------------- PROJECTS --------------------------------------------------
+\section{\faFlask}{C++ Projects}
+
+  \resumeEntryStart
+    \resumeEntryTD
+      {Orbit Sim 3D Solar System - C++, OpenGL, Assimp, CMAKE}{}
+    \resumeItemListStart
+      \resumeItem {Implemented a 3D Newtonian gravity simulation in C++20, computing per-frame gravitational forces, acceleration, and velocity updates for multiple bodies using physically motivated units, enabling stable real-time orbital motion in a custom OpenGL rendering pipeline.}
+      
+      \resumeItem {Designed and built a modern OpenGL architecture with RAII-based abstractions for shaders, VAOs/VBOs, textures, and model loading via GLFW, GLAD, Assimp, and GLM, organized with a cross-platform CMake build and submodules.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+  \resumeEntryStart
+    \resumeEntryTD
+      {Battle Bro's 2D Platformer - C++, SFML, CMAKE}{}{}
+    \resumeItemListStart
+      \resumeItem {Built a 2D platformer engine in C++20 using SFML, featuring responsive gravity-based movement, jump physics, projectile mechanics with anti-tunneling collision handling, centralized asset management, and integrated audio for effects and background music.}
+      \resumeItem {Architected the game using State and Resource Manager patterns, implementing a modular state machine (Main Menu, Gameplay, Pause, Game Over), RAII-based ownership with smart pointers, and a cross-platform CMake build supporting Windows, macOS, and Linux}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+
+%-------------------------------------------------- EXPERIENCE --------------------------------------------------
+\section{\faPieChart}{Experience}
+
+  \resumeEntryStart
+      \resumeEntryTSDL
+        {Prarie Dog Mobile Smart Trap}{September 2024 -- June 2025}
+        {Lead Developer}{Salisbury Zoo \& Salisbury University}
+      \resumeItemListStart
+        \resumeItem {Designed and implemented a smart trapping system integrating an Arduino-based controller, RFID animal identification, and a Flutter mobile app for remote monitoring and control}
+        \resumeItem {Built real-time communication between embedded hardware and a Firebase backend, enabling zookeepers to selectively trigger trap mechanisms based on detected RFID tags}
+        \resumeItem {Led system architecture and hardware integration, coordinating sensors, servo motors, and networked control logic with a modular, fault-tolerant design}
+      \resumeItemListEnd
+    \resumeEntryEnd
+
+
+  \resumeEntryStart
+  \resumeEntryTSDL
+    {Moving Matters}{Jun. 2024 -- Aug. 2024}
+    {Lead Mobile App Developer}{Salisbury University}
+  \resumeItemListStart
+    \resumeItem {Developed a cross-platform fitness application using Flutter and Firebase, enabling users to track workouts, steps, and progress through daily and weekly challenges}
+    \resumeItem {Designed scalable Firestore data models and services for workouts, goals, and achievements, emphasizing modular architecture and efficient data retrieval}
+    \resumeItem {Implemented real-time statistics, goal tracking, and user engagement features with clean state management and asynchronous data handling}
+  \resumeItemListEnd
+\resumeEntryEnd
+
+
+  \resumeEntryStart
+  \resumeEntryTSDL
+    {Robotic Arm Control System}{Sep. 2024 -- Dec. 2024}
+    {Embedded Systems Developer}{Salisbury University Robotics Club}
+  \resumeItemListStart
+    \resumeItem {Developed firmware to control a multi-joint robotic arm using an Arduino, implementing precise servo motor control through PWM and modular joint abstractions}
+    \resumeItem {Integrated Bluetooth communication to receive real-time control commands, enabling remote manipulation of individual joints via a mobile interface}
+    \resumeItem {Designed and tested safe movement logic and joint constraints to prevent mechanical overextension and ensure reliable, repeatable motion}
+  \resumeItemListEnd
+\resumeEntryEnd
+
+
+
+%-------------------------------------------------- EDUCATION --------------------------------------------------
+\section{\faGraduationCap}{Education}
+
+  \resumeEntryStart
+    \resumeEntryTSDL
+      {Salisbury University}{2022 -- 2025}
+      {BA Computer Science, Minor Math}{Salisbury, MD}
+    \resumeEntryTSDL
+      {Frederick Community College}{2018 -- 2021}
+      {AS Science}{Frederick, MD}
+  \resumeEntryEnd
+  
+
+%-------------------------------------------------- PROGRAMMING SKILLS --------------------------------------------------
+\section{\faGears}{Skills}
+ \resumeEntryStart
+  \resumeEntryS{Skills } {C++, Python, SQL, C, Dart, Java,
+OpenGL, SFML, GLFW, GLAD,
+Flutter, Firebase (Firestore, Auth), AWS,
+Embedded Systems,
+Data Structures \& Algorithms,
+Object-Oriented Design, Design Patterns, Concurrency 
+Git \& GitHub,
+Linux / macOS,
+CMake,
+REST APIs,
+Debugging}
+  \resumeEntryS{Hobbies } {Motercycles, MMA, Philosophy, Guitar}
+ \resumeEntryEnd
+
+\end{document}

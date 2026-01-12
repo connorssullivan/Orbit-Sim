@@ -14,7 +14,10 @@ Planet::Planet(const char* modelPath,
       velocity(startVel),
       mass(mass),
       scale(scale),
-      spinSpeed(spinSpeed)
+      spinSpeed(spinSpeed),
+      m_baseMass (mass), 
+      m_baseScale (scale),
+      m_sizeMultiplier (1.0f)
 {}
 
 
@@ -77,8 +80,14 @@ void Planet::UpdateRender(float time, double distanceScale)
 
 void Planet::Draw(Shader& shader)
 {
+    ApplyScaleMultipliers();
     shader.Use();
     shader.SetMat4("model", modelMatrix);
     model.Draw(shader);
 }
 
+void Planet::ApplyScaleMultipliers()
+{
+    scale = m_baseScale * m_sizeMultiplier;
+    mass  = m_baseScale * m_baseMass;
+}
