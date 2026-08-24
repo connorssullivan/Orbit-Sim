@@ -1,4 +1,4 @@
-#pragma monce
+#pragma once
 
 #include "shader.h"
 #include "mesh.h"
@@ -13,29 +13,19 @@
 
 namespace ModelPaths
 {
-    inline constexpr const char* SUN_MODEL = "../recources/solarSystem/sun/sun.gltf";
-
-    inline constexpr const char* MERCURY_MODEL = "../recources/solarSystem/mercury/mercury.gltf";
-
-    inline constexpr const char* VENUS_MODEL = "../recources/solarSystem/venus/venus.gltf";
-
-    inline constexpr const char* EARTH_MODEL = "../recources/solarSystem/earth/earthgltf.gltf";
-    inline constexpr const char* EARTH_MOON_MODEL = "../recources/solarSystem/earth/moon/earth_moon.gltf";
-
-    inline constexpr const char* MARS_MODEL = "../recources/solarSystem/mars/mars.gltf";
-
-    inline constexpr const char* JUIPITER_MODEL = "../recources/solarSystem/jupiter/juipiter.gltf";
-
-    inline constexpr const char* SATURN_MODEL = "../recources/solarSystem/saturn/saturn.gltf";
-    inline constexpr const char* SATURN_RING_MODEL = "../recources/solarSystem/saturn/saturnring.gltf";
-
-    inline constexpr const char* URANUS_MODEL = "../recources/solarSystem/uranus/uranus.gltf";
-
-    inline constexpr const char* NEPTUNE_MODEL = "../recources/solarSystem/neptune/neptune.gltf";
-
-    inline constexpr const char* PLUTO_MODEL = "../";
-    
-
+    // Paths are relative to the repository root; combine with orbitAssetPath() at use sites.
+    inline constexpr const char* SUN_MODEL = "recources/solarSystem/sun/sun.gltf";
+    inline constexpr const char* MERCURY_MODEL = "recources/solarSystem/mercury/mercury.gltf";
+    inline constexpr const char* VENUS_MODEL = "recources/solarSystem/venus/venus.gltf";
+    inline constexpr const char* EARTH_MODEL = "recources/solarSystem/earth/earthgltf.gltf";
+    inline constexpr const char* EARTH_MOON_MODEL = "recources/solarSystem/earth/moon/earth_moon.gltf";
+    inline constexpr const char* MARS_MODEL = "recources/solarSystem/mars/mars.gltf";
+    inline constexpr const char* JUIPITER_MODEL = "recources/solarSystem/jupiter/juipiter.gltf";
+    inline constexpr const char* SATURN_MODEL = "recources/solarSystem/saturn/saturn.gltf";
+    inline constexpr const char* SATURN_RING_MODEL = "recources/solarSystem/saturn/saturnring.gltf";
+    inline constexpr const char* URANUS_MODEL = "recources/solarSystem/uranus/uranus.gltf";
+    inline constexpr const char* NEPTUNE_MODEL = "recources/solarSystem/neptune/neptune.gltf";
+    inline constexpr const char* PLUTO_MODEL = "recources/solarSystem/neptune/neptune.gltf";
 };
 
 class Model 

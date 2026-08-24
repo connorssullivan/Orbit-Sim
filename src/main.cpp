@@ -7,6 +7,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 
 #include "config.h"
+#include "general/resource_path.h"
 #include "callbacks.h"
 #include "window.h"
 #include "renderer.h"
@@ -63,12 +64,16 @@ int main() {
     ImGui_ImplGlfw_InitForOpenGL(window.get(), true);
     ImGui_ImplOpenGL3_Init("#version 330");
 
-    // Load Shaders
+    // Load Shaders (paths anchored to repo root via ORBIT_SIM_ROOT)
     Shader planetShader;
-    planetShader.SetShader(ShaderPaths::PLANET_VERTEX_SHADER_PATH, ShaderPaths::PLANET_FRAGMENT_SHADER_PATH);
+    planetShader.SetShader(
+        orbitAssetPath(ShaderPaths::PLANET_VERTEX_SHADER_PATH).c_str(),
+        orbitAssetPath(ShaderPaths::PLANET_FRAGMENT_SHADER_PATH).c_str());
 
     Shader bgShader;
-    bgShader.SetShader(ShaderPaths::BG_VERTEX_SHADER_PATH, ShaderPaths::BG_FRAFMENT_SHADER_PATH);
+    bgShader.SetShader(
+        orbitAssetPath(ShaderPaths::BG_VERTEX_SHADER_PATH).c_str(),
+        orbitAssetPath(ShaderPaths::BG_FRAFMENT_SHADER_PATH).c_str());
 
     float bgVertices[] = {
         // pos     // tex
@@ -119,7 +124,7 @@ int main() {
 
     // ---- Sun ----
     planets.emplace_back(
-        ModelPaths::SUN_MODEL,
+        orbitAssetPath(ModelPaths::SUN_MODEL).c_str(),
         glm::dvec3(0.0, 0.0, 0.0),
         glm::dvec3(0.0, 0.0, 0.0),
         Solar::SUN_MASS,
@@ -129,7 +134,7 @@ int main() {
 
     // ---- Mercury ----
     planets.emplace_back(
-        ModelPaths::MERCURY_MODEL,
+        orbitAssetPath(ModelPaths::MERCURY_MODEL).c_str(),
         glm::dvec3(Solar::MERCURY_AU, 0.0, 0.0),
         glm::dvec3(0.0, 0.0, mercury_velocity),
         Solar::MERCURY_MASS,
@@ -139,7 +144,7 @@ int main() {
 
     // ---- Venus ----
     planets.emplace_back(
-        ModelPaths::VENUS_MODEL,
+        orbitAssetPath(ModelPaths::VENUS_MODEL).c_str(),
         glm::dvec3(Solar::VENUS_AU, 0.0, 0.0),
         glm::dvec3(0.0, 0.0, venus_velocity),
         Solar::VENUS_MASS,
@@ -149,7 +154,7 @@ int main() {
 
     // ---- Earth ----
     planets.emplace_back(
-        ModelPaths::EARTH_MODEL,
+        orbitAssetPath(ModelPaths::EARTH_MODEL).c_str(),
         glm::dvec3(Solar::EARTH_AU, 0.0, 0.0),
         glm::dvec3(0.0, 0.0, earth_velocity),
         Solar::EARTH_MASS,
@@ -175,7 +180,7 @@ int main() {
 
     // ---- Mars ----
     planets.emplace_back(
-        ModelPaths::MARS_MODEL,
+        orbitAssetPath(ModelPaths::MARS_MODEL).c_str(),
         glm::dvec3(Solar::MARS_AU, 0.0, 0.0),
         glm::dvec3(0.0, 0.0, mars_velocity),
         Solar::MARS_MASS,
@@ -185,7 +190,7 @@ int main() {
 
     // ---- Jupiter ----
     planets.emplace_back(
-        ModelPaths::JUIPITER_MODEL,
+        orbitAssetPath(ModelPaths::JUIPITER_MODEL).c_str(),
         glm::dvec3(Solar::JUPITER_AU, 0.0, 0.0),
         glm::dvec3(0.0, 0.0, jupiter_velocity),
         Solar::JUPITER_MASS,
@@ -195,7 +200,7 @@ int main() {
 
     // ---- Saturn ----
     planets.emplace_back(
-        ModelPaths::SATURN_MODEL,
+        orbitAssetPath(ModelPaths::SATURN_MODEL).c_str(),
         glm::dvec3(Solar::SATURN_AU, 0.0, 0.0),
         glm::dvec3(0.0, 0.0, saturn_velocity),
         Solar::SATURN_MASS,
@@ -205,7 +210,7 @@ int main() {
 
     // ---- Saturn Rings ---- (Just following satturns size and acceleration for now)
     planets.emplace_back(
-        ModelPaths::SATURN_RING_MODEL,
+        orbitAssetPath(ModelPaths::SATURN_RING_MODEL).c_str(),
         glm::dvec3(Solar::SATURN_AU, 0.0, 0.0),
         glm::dvec3(0.0, 0.0, saturn_velocity),
         0, //// No gravity
@@ -215,7 +220,7 @@ int main() {
 
     // ---- Uranus ----
     planets.emplace_back(
-        ModelPaths::URANUS_MODEL,
+        orbitAssetPath(ModelPaths::URANUS_MODEL).c_str(),
         glm::dvec3(Solar::URANUS_AU, 0.0, 0.0),
         glm::dvec3(0.0, 0.0, uranus_velocity),
         Solar::URANUS_MASS,
@@ -225,7 +230,7 @@ int main() {
 
     // ---- Neptune ----
     planets.emplace_back(
-        ModelPaths::NEPTUNE_MODEL,
+        orbitAssetPath(ModelPaths::NEPTUNE_MODEL).c_str(),
         glm::dvec3(Solar::NEPTUNE_AU, 0.0, 0.0),
         glm::dvec3(0.0, 0.0, neptune_velocity),
         Solar::NEPTUNE_MASS,
@@ -250,7 +255,7 @@ int main() {
     // --------------------------------------------------
     // Texture Loading
     // --------------------------------------------------
-    BackgroundTexture bgTex(Textures::STARS_TEX);
+    BackgroundTexture bgTex(orbitAssetPath(Textures::STARS_TEX).c_str());
     
     float year {0.0f};
     ///////////////////////////////

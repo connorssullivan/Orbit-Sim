@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground
+CMAKE_SOURCE_DIR = /Users/connorsullivan/CodeProjects/Orbit-Sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build
+CMAKE_BINARY_DIR = /Users/connorsullivan/CodeProjects/Orbit-Sim/build
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include glfw/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glfw/src && /opt/homebrew/bin/cmake -P /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /Users/connorsullivan/CodeProjects/Orbit-Sim/glfw/src && /opt/homebrew/bin/cmake -P /Users/connorsullivan/CodeProjects/Orbit-Sim/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 glfw/src/CMakeFiles/update_mappings.dir/codegen:
 .PHONY : glfw/src/CMakeFiles/update_mappings.dir/codegen
@@ -82,10 +82,10 @@ glfw/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : glfw/src/CMakeFiles/update_mappings.dir/build
 
 glfw/src/CMakeFiles/update_mappings.dir/clean:
-	cd /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /Users/connorsullivan/CodeProjects/Orbit-Sim/build/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : glfw/src/CMakeFiles/update_mappings.dir/clean
 
 glfw/src/CMakeFiles/update_mappings.dir/depend:
-	cd /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/glfw/src /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/glfw/src /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/connorsullivan/CodeProjects/Orbit-Sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/connorsullivan/CodeProjects/Orbit-Sim /Users/connorsullivan/CodeProjects/Orbit-Sim/glfw/src /Users/connorsullivan/CodeProjects/Orbit-Sim/build /Users/connorsullivan/CodeProjects/Orbit-Sim/build/glfw/src /Users/connorsullivan/CodeProjects/Orbit-Sim/build/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw/src/CMakeFiles/update_mappings.dir/depend
 

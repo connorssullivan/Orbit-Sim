@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground
+CMAKE_SOURCE_DIR = /Users/connorsullivan/CodeProjects/Orbit-Sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build
+CMAKE_BINARY_DIR = /Users/connorsullivan/CodeProjects/Orbit-Sim/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles /Users/connorsullivan/CodeProjects/Orbit-Sim/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,19 +128,6 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
-
-#=============================================================================
-# Target rules for targets named assimp
-
-# Build rule for target.
-assimp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assimp
-.PHONY : assimp
-
-# fast build rule for target.
-assimp/fast:
-	$(MAKE) $(MAKESILENT) -f assimp/code/CMakeFiles/assimp.dir/build.make assimp/code/CMakeFiles/assimp.dir/build
-.PHONY : assimp/fast
 
 #=============================================================================
 # Target rules for targets named glfw
@@ -633,7 +620,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... update_mappings"
-	@echo "... assimp"
 	@echo "... glfw"
 	@echo "... main"
 	@echo "... external/imgui/backends/imgui_impl_glfw.o"

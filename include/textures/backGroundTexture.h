@@ -9,8 +9,8 @@
 
 namespace Textures
 {
-    constexpr const char* EARTH_TEX = "../include/textures/earthTexture.png";
-    constexpr const char* STARS_TEX = "../include/textures/starsBG.png";
+    constexpr const char* EARTH_TEX = "include/textures/earthTexture.png";
+    constexpr const char* STARS_TEX = "include/textures/starsBG.png";
 };
 
 

@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground
+CMAKE_SOURCE_DIR = /Users/connorsullivan/CodeProjects/Orbit-Sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build
+CMAKE_BINARY_DIR = /Users/connorsullivan/CodeProjects/Orbit-Sim/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -73,270 +73,270 @@ CMakeFiles/main.dir/codegen:
 .PHONY : CMakeFiles/main.dir/codegen
 
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/main.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/main.cpp
+CMakeFiles/main.dir/src/main.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/src/main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 CMakeFiles/main.dir/src/glad.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/glad.c.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/glad.c
+CMakeFiles/main.dir/src/glad.c.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/src/glad.c
 CMakeFiles/main.dir/src/glad.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/glad.c.o -MF CMakeFiles/main.dir/src/glad.c.o.d -o CMakeFiles/main.dir/src/glad.c.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/glad.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/glad.c.o -MF CMakeFiles/main.dir/src/glad.c.o.d -o CMakeFiles/main.dir/src/glad.c.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/src/glad.c
 
 CMakeFiles/main.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/glad.c > CMakeFiles/main.dir/src/glad.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/src/glad.c > CMakeFiles/main.dir/src/glad.c.i
 
 CMakeFiles/main.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/glad.c -o CMakeFiles/main.dir/src/glad.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/src/glad.c -o CMakeFiles/main.dir/src/glad.c.s
 
 CMakeFiles/main.dir/src/callbacks.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/callbacks.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/callbacks.cpp
+CMakeFiles/main.dir/src/callbacks.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/src/callbacks.cpp
 CMakeFiles/main.dir/src/callbacks.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/callbacks.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/callbacks.cpp.o -MF CMakeFiles/main.dir/src/callbacks.cpp.o.d -o CMakeFiles/main.dir/src/callbacks.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/callbacks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/callbacks.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/callbacks.cpp.o -MF CMakeFiles/main.dir/src/callbacks.cpp.o.d -o CMakeFiles/main.dir/src/callbacks.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/src/callbacks.cpp
 
 CMakeFiles/main.dir/src/callbacks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/callbacks.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/callbacks.cpp > CMakeFiles/main.dir/src/callbacks.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/src/callbacks.cpp > CMakeFiles/main.dir/src/callbacks.cpp.i
 
 CMakeFiles/main.dir/src/callbacks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/callbacks.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/callbacks.cpp -o CMakeFiles/main.dir/src/callbacks.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/src/callbacks.cpp -o CMakeFiles/main.dir/src/callbacks.cpp.s
 
 CMakeFiles/main.dir/src/window.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/window.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/window.cpp
+CMakeFiles/main.dir/src/window.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/src/window.cpp
 CMakeFiles/main.dir/src/window.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/window.cpp.o -MF CMakeFiles/main.dir/src/window.cpp.o.d -o CMakeFiles/main.dir/src/window.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/window.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/window.cpp.o -MF CMakeFiles/main.dir/src/window.cpp.o.d -o CMakeFiles/main.dir/src/window.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/src/window.cpp
 
 CMakeFiles/main.dir/src/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/window.cpp > CMakeFiles/main.dir/src/window.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/src/window.cpp > CMakeFiles/main.dir/src/window.cpp.i
 
 CMakeFiles/main.dir/src/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/window.cpp -o CMakeFiles/main.dir/src/window.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/src/window.cpp -o CMakeFiles/main.dir/src/window.cpp.s
 
 CMakeFiles/main.dir/src/vertexArray.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/vertexArray.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/vertexArray.cpp
+CMakeFiles/main.dir/src/vertexArray.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/src/vertexArray.cpp
 CMakeFiles/main.dir/src/vertexArray.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/vertexArray.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/vertexArray.cpp.o -MF CMakeFiles/main.dir/src/vertexArray.cpp.o.d -o CMakeFiles/main.dir/src/vertexArray.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/vertexArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/vertexArray.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/vertexArray.cpp.o -MF CMakeFiles/main.dir/src/vertexArray.cpp.o.d -o CMakeFiles/main.dir/src/vertexArray.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/src/vertexArray.cpp
 
 CMakeFiles/main.dir/src/vertexArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/vertexArray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/vertexArray.cpp > CMakeFiles/main.dir/src/vertexArray.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/src/vertexArray.cpp > CMakeFiles/main.dir/src/vertexArray.cpp.i
 
 CMakeFiles/main.dir/src/vertexArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/vertexArray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/vertexArray.cpp -o CMakeFiles/main.dir/src/vertexArray.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/src/vertexArray.cpp -o CMakeFiles/main.dir/src/vertexArray.cpp.s
 
 CMakeFiles/main.dir/src/vertexBuffer.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/vertexBuffer.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/vertexBuffer.cpp
+CMakeFiles/main.dir/src/vertexBuffer.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/src/vertexBuffer.cpp
 CMakeFiles/main.dir/src/vertexBuffer.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/vertexBuffer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/vertexBuffer.cpp.o -MF CMakeFiles/main.dir/src/vertexBuffer.cpp.o.d -o CMakeFiles/main.dir/src/vertexBuffer.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/vertexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/vertexBuffer.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/vertexBuffer.cpp.o -MF CMakeFiles/main.dir/src/vertexBuffer.cpp.o.d -o CMakeFiles/main.dir/src/vertexBuffer.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/src/vertexBuffer.cpp
 
 CMakeFiles/main.dir/src/vertexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/vertexBuffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/vertexBuffer.cpp > CMakeFiles/main.dir/src/vertexBuffer.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/src/vertexBuffer.cpp > CMakeFiles/main.dir/src/vertexBuffer.cpp.i
 
 CMakeFiles/main.dir/src/vertexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/vertexBuffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/vertexBuffer.cpp -o CMakeFiles/main.dir/src/vertexBuffer.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/src/vertexBuffer.cpp -o CMakeFiles/main.dir/src/vertexBuffer.cpp.s
 
 CMakeFiles/main.dir/src/indexBuffer.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/indexBuffer.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/indexBuffer.cpp
+CMakeFiles/main.dir/src/indexBuffer.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/src/indexBuffer.cpp
 CMakeFiles/main.dir/src/indexBuffer.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/indexBuffer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/indexBuffer.cpp.o -MF CMakeFiles/main.dir/src/indexBuffer.cpp.o.d -o CMakeFiles/main.dir/src/indexBuffer.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/indexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/indexBuffer.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/indexBuffer.cpp.o -MF CMakeFiles/main.dir/src/indexBuffer.cpp.o.d -o CMakeFiles/main.dir/src/indexBuffer.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/src/indexBuffer.cpp
 
 CMakeFiles/main.dir/src/indexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/indexBuffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/indexBuffer.cpp > CMakeFiles/main.dir/src/indexBuffer.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/src/indexBuffer.cpp > CMakeFiles/main.dir/src/indexBuffer.cpp.i
 
 CMakeFiles/main.dir/src/indexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/indexBuffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/indexBuffer.cpp -o CMakeFiles/main.dir/src/indexBuffer.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/src/indexBuffer.cpp -o CMakeFiles/main.dir/src/indexBuffer.cpp.s
 
 CMakeFiles/main.dir/src/renderer.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/renderer.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/renderer.cpp
+CMakeFiles/main.dir/src/renderer.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/src/renderer.cpp
 CMakeFiles/main.dir/src/renderer.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/renderer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/renderer.cpp.o -MF CMakeFiles/main.dir/src/renderer.cpp.o.d -o CMakeFiles/main.dir/src/renderer.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/renderer.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/renderer.cpp.o -MF CMakeFiles/main.dir/src/renderer.cpp.o.d -o CMakeFiles/main.dir/src/renderer.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/src/renderer.cpp
 
 CMakeFiles/main.dir/src/renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/renderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/renderer.cpp > CMakeFiles/main.dir/src/renderer.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/src/renderer.cpp > CMakeFiles/main.dir/src/renderer.cpp.i
 
 CMakeFiles/main.dir/src/renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/renderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/renderer.cpp -o CMakeFiles/main.dir/src/renderer.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/src/renderer.cpp -o CMakeFiles/main.dir/src/renderer.cpp.s
 
 CMakeFiles/main.dir/src/shader.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/shader.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/shader.cpp
+CMakeFiles/main.dir/src/shader.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/src/shader.cpp
 CMakeFiles/main.dir/src/shader.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/shader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/shader.cpp.o -MF CMakeFiles/main.dir/src/shader.cpp.o.d -o CMakeFiles/main.dir/src/shader.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/shader.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/shader.cpp.o -MF CMakeFiles/main.dir/src/shader.cpp.o.d -o CMakeFiles/main.dir/src/shader.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/src/shader.cpp
 
 CMakeFiles/main.dir/src/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/shader.cpp > CMakeFiles/main.dir/src/shader.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/src/shader.cpp > CMakeFiles/main.dir/src/shader.cpp.i
 
 CMakeFiles/main.dir/src/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/shader.cpp -o CMakeFiles/main.dir/src/shader.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/src/shader.cpp -o CMakeFiles/main.dir/src/shader.cpp.s
 
 CMakeFiles/main.dir/src/stb_image.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/stb_image.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/stb_image.cpp
+CMakeFiles/main.dir/src/stb_image.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/src/stb_image.cpp
 CMakeFiles/main.dir/src/stb_image.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/stb_image.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/stb_image.cpp.o -MF CMakeFiles/main.dir/src/stb_image.cpp.o.d -o CMakeFiles/main.dir/src/stb_image.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/stb_image.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/stb_image.cpp.o -MF CMakeFiles/main.dir/src/stb_image.cpp.o.d -o CMakeFiles/main.dir/src/stb_image.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/src/stb_image.cpp
 
 CMakeFiles/main.dir/src/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/stb_image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/stb_image.cpp > CMakeFiles/main.dir/src/stb_image.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/src/stb_image.cpp > CMakeFiles/main.dir/src/stb_image.cpp.i
 
 CMakeFiles/main.dir/src/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/stb_image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/stb_image.cpp -o CMakeFiles/main.dir/src/stb_image.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/src/stb_image.cpp -o CMakeFiles/main.dir/src/stb_image.cpp.s
 
 CMakeFiles/main.dir/src/backGroundTexture.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/backGroundTexture.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/backGroundTexture.cpp
+CMakeFiles/main.dir/src/backGroundTexture.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/src/backGroundTexture.cpp
 CMakeFiles/main.dir/src/backGroundTexture.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/backGroundTexture.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/backGroundTexture.cpp.o -MF CMakeFiles/main.dir/src/backGroundTexture.cpp.o.d -o CMakeFiles/main.dir/src/backGroundTexture.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/backGroundTexture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/backGroundTexture.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/backGroundTexture.cpp.o -MF CMakeFiles/main.dir/src/backGroundTexture.cpp.o.d -o CMakeFiles/main.dir/src/backGroundTexture.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/src/backGroundTexture.cpp
 
 CMakeFiles/main.dir/src/backGroundTexture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/backGroundTexture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/backGroundTexture.cpp > CMakeFiles/main.dir/src/backGroundTexture.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/src/backGroundTexture.cpp > CMakeFiles/main.dir/src/backGroundTexture.cpp.i
 
 CMakeFiles/main.dir/src/backGroundTexture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/backGroundTexture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/backGroundTexture.cpp -o CMakeFiles/main.dir/src/backGroundTexture.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/src/backGroundTexture.cpp -o CMakeFiles/main.dir/src/backGroundTexture.cpp.s
 
 CMakeFiles/main.dir/src/model.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/model.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/model.cpp
+CMakeFiles/main.dir/src/model.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/src/model.cpp
 CMakeFiles/main.dir/src/model.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/model.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/model.cpp.o -MF CMakeFiles/main.dir/src/model.cpp.o.d -o CMakeFiles/main.dir/src/model.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/model.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/model.cpp.o -MF CMakeFiles/main.dir/src/model.cpp.o.d -o CMakeFiles/main.dir/src/model.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/src/model.cpp
 
 CMakeFiles/main.dir/src/model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/model.cpp > CMakeFiles/main.dir/src/model.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/src/model.cpp > CMakeFiles/main.dir/src/model.cpp.i
 
 CMakeFiles/main.dir/src/model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/model.cpp -o CMakeFiles/main.dir/src/model.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/src/model.cpp -o CMakeFiles/main.dir/src/model.cpp.s
 
 CMakeFiles/main.dir/src/planet.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/planet.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/planet.cpp
+CMakeFiles/main.dir/src/planet.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/src/planet.cpp
 CMakeFiles/main.dir/src/planet.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/planet.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/planet.cpp.o -MF CMakeFiles/main.dir/src/planet.cpp.o.d -o CMakeFiles/main.dir/src/planet.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/planet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/planet.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/planet.cpp.o -MF CMakeFiles/main.dir/src/planet.cpp.o.d -o CMakeFiles/main.dir/src/planet.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/src/planet.cpp
 
 CMakeFiles/main.dir/src/planet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/planet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/planet.cpp > CMakeFiles/main.dir/src/planet.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/src/planet.cpp > CMakeFiles/main.dir/src/planet.cpp.i
 
 CMakeFiles/main.dir/src/planet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/planet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/src/planet.cpp -o CMakeFiles/main.dir/src/planet.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/src/planet.cpp -o CMakeFiles/main.dir/src/planet.cpp.s
 
 CMakeFiles/main.dir/external/imgui/imgui.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/external/imgui/imgui.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui.cpp
+CMakeFiles/main.dir/external/imgui/imgui.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui.cpp
 CMakeFiles/main.dir/external/imgui/imgui.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/external/imgui/imgui.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/imgui.cpp.o -MF CMakeFiles/main.dir/external/imgui/imgui.cpp.o.d -o CMakeFiles/main.dir/external/imgui/imgui.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/external/imgui/imgui.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/imgui.cpp.o -MF CMakeFiles/main.dir/external/imgui/imgui.cpp.o.d -o CMakeFiles/main.dir/external/imgui/imgui.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui.cpp
 
 CMakeFiles/main.dir/external/imgui/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/external/imgui/imgui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui.cpp > CMakeFiles/main.dir/external/imgui/imgui.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui.cpp > CMakeFiles/main.dir/external/imgui/imgui.cpp.i
 
 CMakeFiles/main.dir/external/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/external/imgui/imgui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui.cpp -o CMakeFiles/main.dir/external/imgui/imgui.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui.cpp -o CMakeFiles/main.dir/external/imgui/imgui.cpp.s
 
 CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_draw.cpp
+CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui_draw.cpp
 CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o -MF CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o.d -o CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o -MF CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o.d -o CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui_draw.cpp
 
 CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_draw.cpp > CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui_draw.cpp > CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.i
 
 CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_draw.cpp -o CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui_draw.cpp -o CMakeFiles/main.dir/external/imgui/imgui_draw.cpp.s
 
 CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_tables.cpp
+CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui_tables.cpp
 CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o -MF CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o.d -o CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_tables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o -MF CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o.d -o CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui_tables.cpp
 
 CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_tables.cpp > CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui_tables.cpp > CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.i
 
 CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_tables.cpp -o CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui_tables.cpp -o CMakeFiles/main.dir/external/imgui/imgui_tables.cpp.s
 
 CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_widgets.cpp
+CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui_widgets.cpp
 CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o -MF CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o -MF CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui_widgets.cpp
 
 CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_widgets.cpp > CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui_widgets.cpp > CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.i
 
 CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/imgui_widgets.cpp -o CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/imgui_widgets.cpp -o CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.s
 
 CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_glfw.cpp
+CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/backends/imgui_impl_glfw.cpp
 CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_glfw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/backends/imgui_impl_glfw.cpp
 
 CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.i
 
 CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.s
 
 CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_opengl3.cpp
+CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/backends/imgui_impl_opengl3.cpp
 CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/backends/imgui_impl_opengl3.cpp
 
 CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i
 
 CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/external/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/connorsullivan/CodeProjects/Orbit-Sim/external/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -383,12 +383,12 @@ main: CMakeFiles/main.dir/external/imgui/imgui_widgets.cpp.o
 main: CMakeFiles/main.dir/external/imgui/backends/imgui_impl_glfw.cpp.o
 main: CMakeFiles/main.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o
 main: CMakeFiles/main.dir/build.make
-main: assimp/bin/libassimp.6.0.2.dylib
-main: glfw/src/libglfw.3.5.dylib
+main: /opt/homebrew/lib/libassimp.6.0.4.dylib
+main: glfw/src/libglfw3.a
 main: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
 main: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libz.tbd
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -400,6 +400,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build /Users/connorsullivan/CodeProjects/learnopengl/gettingStarted/playground/build/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/connorsullivan/CodeProjects/Orbit-Sim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/connorsullivan/CodeProjects/Orbit-Sim /Users/connorsullivan/CodeProjects/Orbit-Sim /Users/connorsullivan/CodeProjects/Orbit-Sim/build /Users/connorsullivan/CodeProjects/Orbit-Sim/build /Users/connorsullivan/CodeProjects/Orbit-Sim/build/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 

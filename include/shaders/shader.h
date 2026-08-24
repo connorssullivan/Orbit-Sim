@@ -14,12 +14,10 @@
 
 namespace ShaderPaths
 {
-    inline constexpr const char* PLANET_VERTEX_SHADER_PATH = "../recources/planetShaders/vertexShader.txt";
-    inline constexpr const char* PLANET_FRAGMENT_SHADER_PATH = "../recources/planetShaders/fragShader.txt";
-
-    inline constexpr const char* BG_VERTEX_SHADER_PATH = "../recources/backgroundShader/backGroundVertexShader.txt";
-    inline constexpr const char* BG_FRAFMENT_SHADER_PATH = "../recources/backgroundShader/backGroundFragShader.txt";
-    
+    inline constexpr const char* PLANET_VERTEX_SHADER_PATH = "recources/planetShaders/vertexShader.txt";
+    inline constexpr const char* PLANET_FRAGMENT_SHADER_PATH = "recources/planetShaders/fragShader.txt";
+    inline constexpr const char* BG_VERTEX_SHADER_PATH = "recources/backgroundShader/backGroundVertexShader.txt";
+    inline constexpr const char* BG_FRAFMENT_SHADER_PATH = "recources/backgroundShader/backGroundFragShader.txt";
 };
 
 class Shader
